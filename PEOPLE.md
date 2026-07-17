@@ -96,6 +96,9 @@ Founded 2014 in Tunis (HQ London; acquired by BioNTech, 2023). Partnered with iC
 ### [Elyadata](https://github.com/elyadata)
 Tunisian/Paris speech-NLP company (Fethi Bougares). Released TunArTTS, TARIC-SLU, TEDxTN, SLURP-TN. [HuggingFace](https://huggingface.co/Elyadata).
 
+### [Ramitechs](http://www.ramitechs.com/)
+Tunisian company that builds and annotates corpora and lexicons using expert linguists (commercial data/annotation vendor).
+
 ### [LINAGORA Labs](https://huggingface.co/linagora)
 Open-source software company; the LinTO project released large open Tunisian ASR datasets and models, plus the Labess Tunisian Derja LLM, TunisianMMLU, and the FineWeb2 Tunisian split.
 

@@ -177,6 +177,13 @@ Related: learning word representations for Tunisian sentiment ([arXiv:2010.06857
 - Country-level dialect-ID tweets across 18 countries; the Tunisian subset is ~8,879 items (as folded into the LinTO Derja aggregate). QCRI.
 - **[open]** (QCRI resources page).
 
+### [ArapTweet](https://aclanthology.org/L18-1111/)
+- Large multi-dialect Arabic Twitter corpus for gender, age, and language-variety identification, covering 11 Arab regions including Tunisia. Zaghouani and Charfi, LREC 2018.
+- **[on request]** (contact authors); Tunisian is one regional subset.
+
+### Multi-Dialect, Multi-Genre Corpus of Informal Written Arabic (LREC 2014)
+- Cotterell and Callison-Burch. Informal Arabic across five dialect groups including **Maghrebi** (Tunisian-relevant). Paper: [LREC 2014](https://aclanthology.org/L14-1006/). **[on request]**.
+
 ### [Arabic Dialect Identification shared-task data (LREC 2018)](https://github.com/drelhaj/ArabicDialects/tree/master/ArabicSharedTask)
 - Dialect-ID train/test data including Maghrebi/Tunisian-relevant material.
 - **[open]** (GitHub).
@@ -249,7 +256,11 @@ Related: learning word representations for Tunisian sentiment ([arXiv:2010.06857
 
 ## Named Entity Recognition
 
-There is **no openly downloadable gold NER corpus specific to Tunisian Arabic** at time of writing. Known work:
+The most useful openly available NER building blocks are the **Barcha** gazetteers (below). A token-annotated gold NER *corpus* specific to Tunisian has not been openly released yet. Known work:
+
+### [Barcha](https://github.com/wa3dbk/Barcha)
+- Open multi-purpose Tunisian resource (MIT). wa3dbk. Its `named_entities/` folder is a set of curated Tunisian entity gazetteers: people (academics/scientists, artists, footballers, media figures, poets, politicians, trade unionists, writers), institutions/associations/companies, government institutions, cities, universities (public and private), ISETs, political parties, and unions. Also ships a `texts/` raw-text folder and a `translation/` folder (Tunisian↔English/MSA).
+- These are gazetteers/word lists rather than a token-annotated corpus, but they are the best open NER starting point for Tunisian. **[open]**.
 
 ### TUNER — NER of Tunisian Arabic with Bi-LSTM-CRF (2023)
 - Hybrid Bi-LSTM-CRF + rules, F-measure 91.43%; involves an annotated Tunisian NER corpus that is not publicly released.
@@ -296,6 +307,7 @@ Multi-dialect NER corpora (e.g., UniversalNER, the "Konooz" multi-dialect set) m
 - [tunis-ai/tunisian-msa-parallel-corpus](https://huggingface.co/datasets/tunis-ai/tunisian-msa-parallel-corpus) and [-evaluated](https://huggingface.co/datasets/tunis-ai/tunisian-msa-parallel-corpus-evaluated), [tunis-ai/MADAR-TUN](https://huggingface.co/datasets/tunis-ai/MADAR-TUN) (~30k) — Derja↔MSA. Tunisia.AI, 2025. **[open]**.
 - [NadiaGHEZAIEL/English_to_Tunisian_Dataset](https://huggingface.co/datasets/NadiaGHEZAIEL/English_to_Tunisian_Dataset) (~1.7k) — English→Tunisian. Nov 2025. **[open]**.
 - [khaled123/Tunisianderjasynthtranslation](https://huggingface.co/datasets/khaled123/Tunisianderjasynthtranslation) (~436k, synthetic) and the Kaggle [drejja-to-english](https://www.kaggle.com/datasets/khawlajlassi/drejja-to-english) (~13k) — Derja↔English. **[open]**.
+- [Barcha](https://github.com/wa3dbk/Barcha) — its `translation/` folder holds Tunisian↔English/MSA parallel data (also has NER gazetteers and raw texts; see [NER](#named-entity-recognition)). **[open]**.
 
 ### Speech translation corpora with Tunisian↔English/French text
 - **TuniFra** (Tunisian↔French, 15h), **TEDxTN** and **IWSLT 2022/2023 Tunisian–English** are three-way (audio + transcript + translation) and are listed in [SPEECH.md](SPEECH.md); their transcript/translation layers are also Tunisian–French / Tunisian–English bitext.
@@ -325,6 +337,9 @@ Multi-dialect NER corpora (e.g., UniversalNER, the "Konooz" multi-dialect set) m
 
 ### [CODA* — Unified Conventional Orthography for Dialectal Arabic](https://camel-guidelines.readthedocs.io/en/latest/orthography/)
 - Cross-dialect orthography framework (covers Tunisian). Habash et al., LREC 2018. [PDF](https://camel.abudhabi.nyu.edu/madar/static/pdfs/2018-LREC-CODA-STAR.pdf). **[open]**.
+
+### [A Conventional Orthography for Maghrebi Arabic (LREC 2016)](https://aclanthology.org/L16-1352/)
+- Turki, Adel, Gibson, Zribi. Extends CODA across Maghrebi (incl. Tunisian). **[open]**.
 
 ### NOTA — Normalized Orthography for Tunisian Arabic (Springer 2025)
 - Adaptation/normalization of CODA* for Tunisian. **[paywalled]** ([Springer](https://link.springer.com/chapter/10.1007/978-3-031-85067-7_13)).
@@ -418,6 +433,7 @@ The instruction / SFT / DPO / synthetic data layer behind the Tunisian LLMs in [
 - [Natural Language Processing for Dialectal Arabic: A Survey (WANLP 2015)](https://aclanthology.org/W15-3205/) — Shoufan and Al-Ameri.
 - [A Survey on Dialect Arabic Processing and Analysis (ACM TALLIP 2025)](https://dl.acm.org/doi/10.1145/3747290).
 - [Revisiting Common Assumptions about Arabic Dialects in NLP (ACL 2025)](https://aclanthology.org/2025.acl-long.166/) — Keleg, Goldwater, Magdy.
+- [Critical Survey of the Freely Available Arabic Corpora (2017)](https://arxiv.org/abs/1702.07835) — Wajdi Zaghouani. Inventory of open Arabic corpora, dialectal ones included.
 
 ---
 
