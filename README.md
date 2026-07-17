@@ -454,4 +454,4 @@ The instruction / SFT / DPO / synthetic data layer behind the Tunisian LLMs in [
 
 ---
 
-*Maintained as part of Mai Jlali's Tunisian NLP resources project. Contributions and corrections welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). Last compiled: July 2026.*
+*Maintained as part of Fatma Ezzahra Jlali's Tunisian NLP resources project. Contributions and corrections welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). Last compiled: July 2026.*
