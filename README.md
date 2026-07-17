@@ -4,8 +4,6 @@ A curated list of datasets, models, tools, and papers for the natural language p
 
 The goal is to be the single most complete inventory of what exists for Tunisian NLP: text and speech, open and gated, so that researchers, students, and engineers can find what is out there and see clearly where the gaps are.
 
-Modeled on curated lists such as [slovak-nlp/resources](https://github.com/slovak-nlp/resources) and awesome-NLP style catalogs.
-
 ## Contents
 
 - [Text corpora (raw / web / social)](#text-corpora-raw--web--social)
@@ -22,7 +20,6 @@ Modeled on curated lists such as [slovak-nlp/resources](https://github.com/slova
 - [Lexicons, dictionaries, wordnets](#lexicons-dictionaries-wordnets)
 - [LLM evaluation benchmarks](#llm-evaluation-benchmarks)
 - [LLM training and evaluation datasets](#llm-training-and-evaluation-datasets)
-- [Community apps and demos](#community-apps-and-demos)
 - [Surveys](#surveys)
 - [Shared tasks](#shared-tasks)
 - [Other resource lists](#other-resource-lists)
@@ -443,19 +440,6 @@ The instruction / SFT / DPO / synthetic data layer behind the Tunisian LLMs in [
 - **[MADAR Shared Task 2019](https://aclanthology.org/W19-4622/)** — city-level dialect ID (25 cities incl. Tunis and Sfax) + Twitter user dialect ID.
 - **[IWSLT 2022 / 2023 dialectal speech translation](https://iwslt.org/2022/dialect)** — Tunisian↔English (see [SPEECH.md](SPEECH.md)).
 - **[Arabic Dialect Identification (LREC 2018)](https://github.com/drelhaj/ArabicDialects/tree/master/ArabicSharedTask)** — earlier DID benchmark with Tunisian-relevant data.
-
----
-
-## Community apps and demos
-
-Hosted or closed tools with no released dataset or model, listed for completeness and clearly marked as such.
-
-### [TunDerja — Tunisian Derja to English translator](https://ellemediaempire.com/tunisian-derja/)
-- A web translator built by Abir Chermiti (2024) by fine-tuning OpenAI's GPT-4o-mini on a self-curated Tunisian Derja↔English conversational dataset. Write-up: [LinkedIn article](https://www.linkedin.com/pulse/ai-meets-culture-tunderja-tunisian-derja-english-abir-chermiti-pe-dn9ke/).
-- **[closed demo]** — the fine-tuning dataset and the model are not publicly released; it is a hosted demo, not a reusable resource.
-
-### [Derja.Ninja](https://derja.ninja/)
-- Community Tunisian↔English dictionary with audio (also listed under [Lexicons](#lexicons-dictionaries-wordnets)). **[open]** (web app).
 
 ---
 
