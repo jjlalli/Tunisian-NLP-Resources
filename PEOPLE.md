@@ -124,7 +124,3 @@ General Arabic toolkits with **no dedicated Tunisian model**, but routinely used
 - [ADAM](https://github.com/WaelSalloum/adam) — rule-based dialectal morphological analyzer (Levantine/Egyptian/Iraqi/Gulf); adapted in Tunisian work.
 
 Tunisian-specific tools are listed with their datasets in [README.md](README.md) (TArC multi-task tool, Karmani analyzer/lexicon) and [MODELS.md](MODELS.md) (TunBERT).
-
----
-
-*A note on this project's mentor: Marek Šuppa (Comenius University) advises this resources effort, but his own publication record is in Slovak/Slavic NLP, not Tunisian Arabic, so he is not listed among Tunisian-NLP researchers above.*

@@ -126,13 +126,3 @@ Speech corpora (ASR, spoken language understanding, speech translation), text-to
 
 ### [IWSLT 2022 / 2023 dialectal speech translation](https://iwslt.org/2022/dialect)
 - Tunisian↔English speech translation task. Data prep/scoring: [kevinduh/iwslt22-dialect](https://github.com/kevinduh/iwslt22-dialect).
-
----
-
-## Confirmed negatives
-
-Checked and found to contain **no Tunisian data** (recorded so effort is not wasted re-checking):
-
-- **Mozilla Common Voice** — no dedicated Tunisian-dialect subset (only generic Arabic).
-- **MGB-3** (Egyptian) and **MGB-5** (Moroccan) — no Tunisian data.
-- **Casablanca** multidialectal ASR (EMNLP 2024) — covers 8 dialects; **Tunisian is not one of them**.
