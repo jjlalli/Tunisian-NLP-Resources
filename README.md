@@ -35,7 +35,7 @@ The goal is to be the single most complete inventory of what exists for Tunisian
 Each entry ends with an access note:
 
 - **[open]** — freely downloadable, no login
-- **[gated]** — free but requires registration, a HuggingFace login, or a signed data agreement
+- **[gated]** — requires the owner's approval before access is granted
 - **[on request]** — obtain by contacting the authors
 - **[paywalled]** — behind a publisher or LDC paywall
 - **[paper only]** — described in a paper; no dataset download located
@@ -63,34 +63,12 @@ A note on scope: some resources are pan-Arabic or Maghrebi and contain Tunisian 
 - **[open]** (HuggingFace).
 
 ### [linagora/fineweb2_Tunisian_Arabic](https://huggingface.co/datasets/linagora/fineweb2_Tunisian_Arabic)
-- The Tunisian (`aeb`) portion of FineWeb2, ~265k rows. LINAGORA, June 2025. ODC-By v1.0. This is the Tunisian web split that OSCAR lacks.
+- The Tunisian (`aeb`) portion of FineWeb2, ~265k rows. LINAGORA, June 2025. ODC-By v1.0.
 - **[open]** (HuggingFace).
-
-### [linagora/linto-dataset-text-ar-tn](https://huggingface.co/datasets/linagora/linto-dataset-text-ar-tn)
-- LinTO Tunisian text corpus, ~1.98M rows. LINAGORA, April 2025. Paper: [arXiv:2504.02604](https://arxiv.org/abs/2504.02604). The text companion to the LinTO ASR datasets (see [SPEECH.md](SPEECH.md)).
-- **[open]** (HuggingFace).
-
-### [AzizBelaweid/Tunisian_Language_Dataset](https://huggingface.co/datasets/AzizBelaweid/Tunisian_Language_Dataset)
-- Raw Tunisian text, ~270k rows. Oct 2024. **[open]** (HuggingFace).
-
-### [betteib/tunisian_dialect](https://huggingface.co/datasets/betteib/tunisian_dialect)
-- Raw Tunisian text, ~289k rows. Nov 2024. **[open]** (HuggingFace).
 
 ### [Tunisian_reddit](https://huggingface.co/datasets/Lime1/Tunisian_reddit)
 - Raw social-media corpus scraped from Reddit. Small/uncurated; size not documented.
 - **[open]** (HuggingFace).
-
-### [Tunisia_Revolution_Arabic_2011_2021](https://huggingface.co/datasets/maal-32173/Tunisia_Revolution_Arabic_2011_2021)
-- Topical raw corpus on the Tunisian Revolution (Arabic, 2011–2021). Tunisian-dialect proportion not verified.
-- **[open]** (HuggingFace).
-
-### OSCAR (Common Crawl-derived)
-- Web-crawled monolingual corpus. There is **no dedicated Tunisian (`aeb`) split**; Tunisian text is embedded inside the general Arabic (`ar`) portion. Listed so readers know not to expect a Tunisian slice. HF: [oscar-corpus/OSCAR-2301](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301).
-- **[gated]** (license click-through), not Tunisian-specific.
-
-### TunBERT pretraining corpus
-- ~67 MB Common-Crawl-based Tunisian text (~500k comments) used to pretrain TunBERT. The model was released but the raw corpus itself does not appear to be downloadable.
-- **[paper only]** ([arXiv:2111.13138](https://arxiv.org/abs/2111.13138)).
 
 ---
 
@@ -109,8 +87,8 @@ A note on scope: some resources are pan-Arabic or Maghrebi and contain Tunisian 
 
 ### [TUNIZI v2 — Large Tunisian Arabizi Dataset](https://aclanthology.org/2021.wanlp-1.25/)
 - Extended Arabizi sentiment set, ~100k comments (movies, politics, sport…) labeled positive/negative/neutral. iCompass, 2021.
-- Distributed via a [Zindi challenge](https://github.com/maroxtn/tun-sentiment) and on [Kaggle](https://www.kaggle.com/datasets/waalbannyantudre/tunisian-arabizi-dialect-data-sentiment-analysis). No single canonical open repo for the full 100k.
-- **[gated]** (Kaggle/Zindi login).
+- Distributed via a [Zindi challenge](https://github.com/maroxtn/tun-sentiment) and on [Kaggle](https://www.kaggle.com/datasets/waalbannyantudre/tunisian-arabizi-dialect-data-sentiment-analysis). No single canonical repo for the full 100k.
+- **[open]**.
 
 ### [arbml/Tunisian_Dialect_Corpus](https://huggingface.co/datasets/arbml/Tunisian_Dialect_Corpus)
 - Polarity classification (negative/positive), 49,889 rows, Arabic + Arabizi. Aggregated Tunisian tweets/comments.
@@ -119,18 +97,6 @@ A note on scope: some resources are pan-Arabic or Maghrebi and contain Tunisian 
 ### [hedhoud12/TunisianSentimentAnalysis](https://huggingface.co/datasets/hedhoud12/TunisianSentimentAnalysis)
 - Sentiment corpus, ~23,786 rows. Hedi Naouara (LINAGORA), Oct 2024.
 - **[open]** (HuggingFace).
-
-### [TS-Naim-Mhedhbi (Sentiment_Derja)](https://github.com/NaimMhedhbi1/TS-Naim-Mhedhbi)
-- Tunisian sentiment corpus, ~40k Facebook comments (~10–23k labeled), COVID-era government sentiment (2020). Naim Mhedhbi. Mirror: [Kaggle](https://www.kaggle.com/naim99/ts-naim-mhedhbi).
-- **[open]** (GitHub/Kaggle).
-
-### TEC — Tunisian Election Corpus
-- Sentiment on MSA + Tunisian-dialect tweets from the Oct 2014 elections. Sayadi et al., 2016. ~5,500 tweets. Used as a TunBERT benchmark. No standalone open repo located.
-- **[paper only]**.
-
-### COVID-19 Tunisian benchmark (sentiment + sarcasm)
-- ~23–26k social-media comments labeled for sentiment (optimist/pessimist/neutral) and sarcasm, 2020–2021. Stated as released, but no canonical download URL located.
-- **[paper only]** ([Research Square rs-2321298](https://www.researchsquare.com/article/rs-2321298/v1)).
 
 Related: learning word representations for Tunisian sentiment ([arXiv:2010.06857](https://arxiv.org/abs/2010.06857)).
 
@@ -156,19 +122,15 @@ Related: learning word representations for Tunisian sentiment ([arXiv:2010.06857
 
 ### [MADAR Corpus and Lexicon](https://camel.abudhabi.nyu.edu/madar/)
 - Multi-dialect parallel corpus + city/country dialect ID (26-way). Bouamor et al., LREC 2018. Includes **Tunis** (Corpus-26/Corpus-6) and **Sfax** in the lexicon.
-- Paper: [LREC 2018](https://aclanthology.org/L18-1535/). **[gated]** (free research license via form).
+- Paper: [LREC 2018](https://aclanthology.org/L18-1535/). **[open]** (free research license via form).
 
 ### [NADI — Nuanced Arabic Dialect Identification](https://nadi.dlnlp.ai/)
 - Country/province-level dialect ID from tweets, annual 2020–2024. Tunisia is one of ~21 covered countries.
-- **[gated]** (shared-task registration). See [Shared tasks](#shared-tasks).
+- **[open]** (via shared-task registration). See [Shared tasks](#shared-tasks).
 
 ### [IADD — Integrated Arabic Dialect Identification Dataset](https://github.com/JihadZa/IADD)
 - Aggregated dialect-ID dataset merging DART, SHAMI, PADIC, AOC, and **TSAC** — so it embeds a Tunisian subset. Zahir et al., 2021.
 - Data paper: [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2352340921010519). **[open]** (GitHub).
-
-### [AOC — Arabic Online Commentary](https://github.com/sjeblee/AOC)
-- Dialectal Arabic from news comments with dialect labels. Zaidan and Callison-Burch, 2011. A minor portion is Tunisian (Maghrebi).
-- **[open]** (GitHub mirror).
 
 ### [QADI — QCRI Arabic Dialect Identification](https://alt.qcri.org/resources/qadi/)
 - Country-level dialect-ID tweets across 18 countries; the Tunisian subset is ~8,879 items (as folded into the LinTO Derja aggregate). QCRI.
@@ -246,8 +208,8 @@ Related: learning word representations for Tunisian sentiment ([arXiv:2010.06857
 - Zribi, Ellouze Khemakhem, Hadrich Belguith. Adapts the MSA Al-Khalil analyzer with a purpose-built Tunisian lexicon (~30k words). Analyzer and lexicon not publicly downloadable.
 - **[paper only]** ([paper](https://www.academia.edu/4516863/)).
 
-### Morphological Disambiguation of Tunisian Dialect (J. King Saud Univ., 2017)
-- Zribi, Ellouze, Hadrich-Belguith, Blache. ML disambiguation over the analyzer output (~87–88% accuracy). **[open]** (article).
+### [Morphological Disambiguation of Tunisian Dialect (J. King Saud Univ., 2017)](https://www.researchgate.net/publication/313035715_Morphological_Disambiguation_of_Tunisian_Dialect)
+- Zribi, Ellouze, Hadrich-Belguith, Blache. ML disambiguation over the analyzer output (~87–88% accuracy). Journal of King Saud University – Computer and Information Sciences 29(2), pp. 147–155. **[open]** (article).
 
 ---
 
@@ -281,15 +243,11 @@ Multi-dialect NER corpora (e.g., UniversalNER, the "Konooz" multi-dialect set) m
 
 ### [MADAR Parallel Corpus](https://camel.abudhabi.nyu.edu/madar-parallel-corpus/)
 - Corpus-26: 2,000 BTEC sentences translated into 25 city dialects + MSA (includes **Tunis** and **Sfax**). Corpus-6: 12,000 sentences in 5 cities + MSA (includes **Tunis**). Bouamor et al., LREC 2018.
-- **[gated]** (free research license via form).
+- **[open]** (free research license via form).
 
 ### [MDC — Multidialectal Parallel Corpus of Arabic](https://aclanthology.org/L14-1435/)
 - 2,000 sentences in MSA, Egyptian, **Tunisian**, Jordanian, Palestinian, Syrian + English. Bouamor, Habash, Oflazer, LREC 2014.
 - **[on request]** (paper open; no confirmed open direct download).
-
-### [Dial2MSA-Verified](https://github.com/khered20/Dial2MSA-Verified)
-- Dialect→MSA social-media NMT dataset covering Gulf, Egyptian, Levantine, and **Maghrebi** (umbrella covering Tunisian); ~19,775 training pairs. Khered, Benkhedda, Batista-Navarro, 2025.
-- Repo: [khered20/Dial2MSA-Verified](https://github.com/khered20/Dial2MSA-Verified). Paper: [WACL 2025](https://aclanthology.org/2025.wacl-1.6/). **[open]**.
 
 ### [Parallel resources for Tunisian Arabic Dialect Translation (WANLP 2020)](https://aclanthology.org/2020.wanlp-1.18/)
 - Kchaou, Boujelbane, Hadrich-Belguith. Tunisian (social media) ↔ MSA with data augmentation; BLEU up to 15.03.
@@ -301,7 +259,7 @@ Multi-dialect NER corpora (e.g., UniversalNER, the "Konooz" multi-dialect set) m
 - [Phrase-based SMT + 5,000-sentence Tunis↔MSA corpus (IBIMA)](https://ibima.org/accepted-paper/building-a-tunisian-dialect-into-modern-standard-arabic-parallel-corpus-for-a-phrase-based-machine-translation/) — Sghaier and Zrigui. **[on request]**.
 
 ### Community HuggingFace parallel sets
-- [tunis-ai/tunisian-msa-parallel-corpus](https://huggingface.co/datasets/tunis-ai/tunisian-msa-parallel-corpus) and [-evaluated](https://huggingface.co/datasets/tunis-ai/tunisian-msa-parallel-corpus-evaluated), [tunis-ai/MADAR-TUN](https://huggingface.co/datasets/tunis-ai/MADAR-TUN) (~30k) — Derja↔MSA. Tunisia.AI, 2025. **[open]**.
+- [tunis-ai/tunisian-msa-parallel-corpus](https://huggingface.co/datasets/tunis-ai/tunisian-msa-parallel-corpus) and [tunis-ai/MADAR-TUN](https://huggingface.co/datasets/tunis-ai/MADAR-TUN) (~30k) — Derja↔MSA. Tunisia.AI, 2025. **[open]**.
 - [NadiaGHEZAIEL/English_to_Tunisian_Dataset](https://huggingface.co/datasets/NadiaGHEZAIEL/English_to_Tunisian_Dataset) (~1.7k) — English→Tunisian. Nov 2025. **[open]**.
 - [khaled123/Tunisianderjasynthtranslation](https://huggingface.co/datasets/khaled123/Tunisianderjasynthtranslation) (~436k, synthetic) and the Kaggle [drejja-to-english](https://www.kaggle.com/datasets/khawlajlassi/drejja-to-english) (~13k) — Derja↔English. **[open]**.
 - [Barcha](https://github.com/wa3dbk/Barcha) — its `translation/` folder holds Tunisian↔English/MSA parallel data (also has NER gazetteers and raw texts; see [NER](#named-entity-recognition)). **[open]**.
@@ -388,11 +346,6 @@ Multi-dialect NER corpora (e.g., UniversalNER, the "Konooz" multi-dialect set) m
 ### [Nehdi/TuniziBigBench](https://huggingface.co/datasets/Nehdi/TuniziBigBench)
 - Benchmark dataset for Tunisian/local dialects, LLM-eval oriented. Size/tasks not fully verified. **[open]** (HuggingFace).
 
-### [TunisianEncodersArena](https://huggingface.co/spaces/tunis-ai/TunisianEncodersArena)
-- A live leaderboard (HuggingFace Space) comparing Tunisian encoder models. Tunisia.AI. **[open]**.
-
-Arabic dialect benchmarks that were checked and **do not** include a Tunisian split: AraDiCE, DialectalArabicMMLU, ArabicMMLU, Dallah. Stated here so readers do not assume Tunisian coverage.
-
 ---
 
 ## LLM training and evaluation datasets
@@ -412,11 +365,6 @@ The instruction / SFT / DPO / synthetic data layer behind the Tunisian LLMs in [
 ### Other
 - [Datasmartly/darja-tunisie-chat](https://huggingface.co/datasets/Datasmartly/darja-tunisie-chat) — Tunisian chat dataset, 2025. **[gated]** (must accept conditions; no card).
 - [abdouuu/tunisian_chatbot_data](https://huggingface.co/datasets/abdouuu/tunisian_chatbot_data) — ~1,426 instruction pairs, 2024. Weak as a Derja-generation set (questions in Derja, answers largely MSA/English). **[open]**.
-
-### Domain and cultural datasets
-- [HabibaAbderrahim/Tunisian-Proverbs-with-Image-Associations](https://huggingface.co/datasets/HabibaAbderrahim/Tunisian-Proverbs-with-Image-Associations-A-Cultural-and-Linguistic-Dataset) — 999 Tunisian proverbs with English glosses and image associations, Sep 2025. **[open]**.
-- [sahbyy/Tunisian-Cardiology-QA](https://huggingface.co/datasets/sahbyy/Tunisian-Cardiology-QA) — Tunisian medical QA, Jul 2025. **[open]**.
-- [MedAliFarhat/Tunisian-Laws-Obligations-Contracts](https://huggingface.co/datasets/MedAliFarhat/Tunisian-Laws-Obligations-Contracts) and related Tunisian-law sets (MedAliFarhat, nada-ghazouani). **[open]**.
 
 ---
 

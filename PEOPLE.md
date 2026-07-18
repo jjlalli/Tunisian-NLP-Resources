@@ -103,7 +103,7 @@ Tunisian company that builds and annotates corpora and lexicons using expert lin
 Open-source software company; the LinTO project released large open Tunisian ASR datasets and models, plus the Labess Tunisian Derja LLM, TunisianMMLU, and the FineWeb2 Tunisian split.
 
 ### [Tunisia.AI (tunis-ai)](https://huggingface.co/tunis-ai)
-Community/organization curating Tunisian models and datasets on HuggingFace (TunSwitch mirror, MADAR-TUN, Derja↔MSA parallel corpora, the TunisianEncodersArena leaderboard).
+Community/organization curating Tunisian models and datasets on HuggingFace (TunSwitch mirror, MADAR-TUN, Derja↔MSA parallel corpora).
 
 ### [ESPRIT School of Engineering](https://huggingface.co/ESPRIT-Group)
 Tunis engineering school; released the ESPRIT-Derja instruct LLMs (Qwen3-based) and the ESPRIT-Derja-Instruct dataset (Mourad Zerai).

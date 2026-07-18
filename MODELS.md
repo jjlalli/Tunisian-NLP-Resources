@@ -89,9 +89,3 @@ Note: general Arabic XLSR/Whisper models (e.g., jonatasgrosman/wav2vec2-large-xl
 - [Habibi-TTS](https://github.com/SWivid/Habibi-TTS) — multi-dialect Arabic TTS; Tunisian coverage unconfirmed. **[open]**.
 - Community/commercial Tunisian TTS (SpeechGen, community fine-tunes) — see [SPEECH.md](SPEECH.md#text-to-speech-tts).
 
----
-
-## Evaluation leaderboards
-
-### [TunisianEncodersArena](https://huggingface.co/spaces/tunis-ai/TunisianEncodersArena)
-- A Tunisia.AI HuggingFace Space ("Tunisian LeaderBoard") that benchmarks and compares Tunisian encoder models. A live evaluation venue rather than a static dataset. **[open]**.

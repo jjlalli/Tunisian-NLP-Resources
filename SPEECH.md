@@ -43,7 +43,7 @@ Speech corpora (ASR, spoken language understanding, speech translation), text-to
 
 ### [TEDxTN](https://huggingface.co/datasets/fbougares/TEDxTN)
 - First publicly available Tunisian→English speech-translation corpus: 108 TEDx talks (~25 hours), code-switched Tunisian, speakers from 11+ regions; audio + Tunisian transcript + English translation + annotation guidelines. Bougares, Mdhaffar, Elleuch, Estève, ArabicNLP 2025.
-- Data: [fbougares/TEDxTN](https://huggingface.co/datasets/fbougares/TEDxTN) (HuggingFace; may require accepting terms). Paper: [ACL](https://aclanthology.org/2025.arabicnlp-main.22/) / [arXiv:2511.10780](https://arxiv.org/abs/2511.10780). **[open]**.
+- Data: [fbougares/TEDxTN](https://huggingface.co/datasets/fbougares/TEDxTN) (HuggingFace). Paper: [ACL](https://aclanthology.org/2025.arabicnlp-main.22/) / [arXiv:2511.10780](https://arxiv.org/abs/2511.10780). **[open]**.
 
 ### [TuniFra](https://huggingface.co/datasets/fbougares/TUNIFRA)
 - The first open Tunisian↔French code-switch speech-translation corpus: 15 hours of native Tunisian speech, orthographically transcribed and manually translated into French, for ASR and Tunisian→French speech translation. Choux, Avila, Crego, Bougares (Elyadata), Laurent, ArabicNLP 2025.
