@@ -229,8 +229,6 @@ The most useful openly available NER building blocks are the **Barcha** gazettee
 - Torjmen and Haddar. No public dataset found.
 - **[paper only]** ([ResearchGate](https://www.researchgate.net/publication/349773211)).
 
-Multi-dialect NER corpora (e.g., UniversalNER, the "Konooz" multi-dialect set) may or may not include Tunisian — not confirmed here.
-
 ---
 
 ## Machine translation and parallel corpora
