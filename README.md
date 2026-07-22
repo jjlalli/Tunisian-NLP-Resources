@@ -1,8 +1,21 @@
 # Tunisian Arabic NLP Resources
 
+![Entries](https://img.shields.io/badge/entries-131-blue) ![Open resources](https://img.shields.io/badge/open-87-brightgreen) ![License](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey) ![PRs welcome](https://img.shields.io/badge/PRs-welcome-orange)
+
 A curated list of datasets, models, tools, and papers for the natural language processing of **Tunisian Arabic** (Tunisian Derja / Tounsi / تونسي, ISO 639-3 code **`aeb`**).
 
 The goal is to be the single most complete inventory of what exists for Tunisian NLP: text and speech, open and gated, so that researchers, students, and engineers can find what is out there and see clearly where the gaps are.
+
+## At a glance
+
+| | Entries | Where |
+|---|---|---|
+| Text datasets, benchmarks, lexicons & papers | 66 | this file |
+| Speech corpora (ASR, SLU, translation, TTS) | 23 | [SPEECH.md](SPEECH.md) |
+| Pretrained models (LLMs, encoders, ASR, TTS) | 12 | [MODELS.md](MODELS.md) |
+| Researchers, labs & companies | 30 | [PEOPLE.md](PEOPLE.md) |
+
+Of the 119 access-tagged resources: **87 open** · 11 paywalled · 10 paper-only · 9 on request · 2 gated. Every entry links to a verifiable source; uncertain Tunisian coverage is flagged rather than dropped.
 
 ## Contents
 
@@ -39,6 +52,7 @@ Each entry ends with an access note:
 - **[on request]** — obtain by contacting the authors
 - **[paywalled]** — behind a publisher or LDC paywall
 - **[paper only]** — described in a paper; no dataset download located
+
 A note on scope: some resources are pan-Arabic or Maghrebi and contain Tunisian only as one part. These are included with the Tunisian portion noted, because they are often the only source of a given resource type. Items where Tunisian coverage could not be confirmed are flagged.
 
 ---
@@ -400,4 +414,26 @@ The instruction / SFT / DPO / synthetic data layer behind the Tunisian LLMs in [
 
 ---
 
-*Maintained as part of Fatma Ezzahra Jlali's Tunisian NLP resources project. Contributions and corrections welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). Last compiled: July 2026.*
+## How to cite
+
+If this inventory is useful in your research, please cite it:
+
+```bibtex
+@misc{jlali2026tunisiannlp,
+  author       = {Jlali, Fatma},
+  title        = {Tunisian Arabic {NLP} Resources: A Curated Inventory},
+  year         = {2026},
+  howpublished = {\url{https://github.com/jjlalli/Tunisian-NLP-Resources}},
+  note         = {Living inventory of datasets, models, and papers for Tunisian Arabic (aeb)}
+}
+```
+
+*A paper describing this inventory is in preparation; this entry will be updated when it is available.*
+
+## License
+
+The list itself is released under [CC BY 4.0](LICENSE). The linked resources keep their own licenses — check each entry.
+
+---
+
+*Maintained by Fatma Jlali. Contributions and corrections welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). Last compiled: July 2026.*
